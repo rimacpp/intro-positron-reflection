@@ -1,0 +1,218 @@
+---
+title: "W06-Reflection Essay-Introduction to Positron"
+author: "Karima Ajahiou"
+date: '`r format(Sys.time())`'
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+    theme: cosmo
+    code-overflow: wrap
+    code-tools: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+# Introduction
+
+This reflection summarizes what I learned from the Introduction to Positron module. In this report, I describe my experience installing and exploring Positron, compare it with RStudio, discuss AI tools available inside Positron, reflect on GitHub Copilot, and provide my GitHub Pages link.
+
+::: callout-note
+This report is organized in Quarto and demonstrates multiple HTML features such as headings, lists, blockquotes, callout blocks, footnotes, panel tabsets, table of contents, section numbering, and embedded resources.
+:::
+
+# Prompt 1: Start a new project and Quarto file (.qmd) inside Positron
+
+## Prompt
+
+> Start a new project and Quarto file (.qmd) inside Positron. Create a folder for this workshop on your hard drive. You may call it "Intro-Positron" under your course folder. Organize your file structure appropriately. Start a new project by opening the folder you created and select the folder as the project folder. This will create an .posit folder automatically. Start a qmd file and save the file appropriately.
+
+## Response
+
+I created a folder called **Positron** inside my course folder and opened that folder as a project in Positron. Once the folder was opened as a project, Positron automatically created the hidden `.posit` folder for project settings. I then created a new Quarto file and saved it inside the project folder.
+
+This process helped me understand that Positron is project-based, which makes it easier to keep files, reports, screenshots, and output organized in one place. I also noticed that this structure is helpful for reproducibility because everything related to the assignment stays inside the same folder.
+
+# Prompt 2: Prepare your report (HTML file) using Quarto
+
+## Prompt
+
+> When you prepare the Quarto report, implement as many features and effects of the HTML format as you can, including, but not limited to, the following: text formatting, headings, lists, blockquote, panel tabset or tables, cross-referencing, footnote, callout blocks, table of contents, toc-depth / toc-expand, section numbering, self-contained, HTML theme options, hiding code, code overflow, code tools.
+
+## Response
+
+I used Quarto to prepare this report as an HTML document and included a variety of formatting and layout features. I used section headings and subsection headings to clearly organize each prompt and response. I also included bullet lists, blockquotes for the prompts, callout blocks to emphasize important ideas, and a panel tabset to present AI tools in a visually organized way.
+
+The table of contents and section numbering make the document easier to navigate. The HTML output is also self-contained because resources are embedded directly in the file. I used a theme option to improve the overall appearance of the report and enabled code tools and code overflow options in the YAML header. Even though this assignment is reflection-based rather than code-heavy, these settings still demonstrate familiarity with Quarto features and professional report formatting.
+
+::: callout-tip
+Using Quarto makes a report look more polished and professional than a plain Word document because it combines structure, styling, and reproducibility in one file.
+:::
+
+## Quarto Features Used
+
+-   Headings and subheadings
+-   Lists
+-   Blockquotes
+-   Callout blocks
+-   Table of contents
+-   Section numbering
+-   HTML theme
+-   Embedded resources
+-   Footnote
+-   Panel tabset
+-   Code tools
+-   Code overflow
+
+# Prompt 3: Download and install Positron. Follow the activities in the videos.
+
+## Prompt
+
+> Download and Install Positron. As you watch the videos in Step 1 and Step 3, follow the activities in the video and be familiar with Positron.
+
+## Response
+
+I downloaded and installed Positron from the Posit website and followed along with the videos to become familiar with the environment. After opening Positron, I noticed that the interface felt somewhat familiar because it still includes core components such as the editor, console, files pane, variables pane, and plots viewer. At the same time, it also felt more modern and flexible than RStudio.
+
+As I followed the videos, I learned how to open a project folder, create files, switch between tools in the sidebar, and use the data viewer. I also learned that Positron supports both **R and Python**, which is a major advantage for data science work. Another thing I noticed is that Positron encourages a project-based workflow, which helps keep everything organized.
+
+Overall, completing the setup steps made me more comfortable navigating the interface and understanding how Positron is intended to be used in a data science workflow.
+
+# Prompt 4: Based on what you learned from Step 1 and Step 3, what do you like about Positron compared with RStudio?
+
+## Prompt
+
+> Based on what you learned from Step 1 and Step 3, what do you like about Positron compared with RStudio?
+
+## Response
+
+What I like most about Positron compared with RStudio is that it keeps the familiar data science workflow while adding more flexibility and modern features. RStudio is comfortable and straightforward, especially for beginners working mainly in R, but Positron feels more adaptable to a broader range of tasks.
+
+One major advantage is that Positron supports **multiple languages**, especially R and Python, within the same environment. That is useful because data science work often involves more than one programming language. I also like that Positron includes a modern extension system similar to VS Code, which allows users to customize their environment more easily.
+
+Another feature I like is the improved interface layout. The sidebars, file explorer, data viewer, and project structure feel organized and powerful. In addition, Positron has built-in support for AI tools, which makes it feel more current and practical for modern analytics workflows.
+
+In my opinion, RStudio still feels simpler for traditional R work, but Positron feels more future-oriented and better suited for modern data science.
+
+::: callout-important
+Positron combines the strengths of RStudio for data science with the flexibility and extension support of VS Code.
+:::
+
+# Prompt 5: Describe the various ways you can use AI inside Positron. Some are free while others are not.
+
+## Prompt
+
+> In Step 4, the video demonstrates how you can use AI. Describe the various ways you can use AI inside Positron. Some are free while others are not.
+
+## Response
+
+There are several ways to use AI inside Positron. One of the main tools is **Positron Assistant**, which is an AI assistant built directly into the IDE. It can help explain code, identify errors, suggest code improvements, summarize datasets, and generate starter code for analysis. One important benefit is that it is context-aware, meaning it can look at the current script, console output, variables, and plots to provide better suggestions.
+
+Another way AI can be used is through **inline assistance**, where suggestions appear directly in the script while writing code. This makes it easier to get support without leaving the editor. Positron also supports AI through extensions, such as **DataBot**, which focuses on exploratory data analysis by generating code, running it, and suggesting further analysis steps.
+
+Some AI options are free, while others require paid accounts or API keys depending on the provider. For example, some model providers may require billing or subscription access. GitHub Copilot can be free for students if they are accepted into the GitHub Education program.
+
+## AI Tools in Positron
+
+::: panel-tabset
+## Positron Assistant
+
+-   Built directly into Positron
+-   Helps explain code
+-   Helps debug errors
+-   Suggests analyses
+-   Can summarize datasets and plots
+
+## Inline AI Help
+
+-   Works directly inside the script editor
+-   Allows quick code suggestions while writing
+-   Keeps workflow fast and integrated
+
+## DataBot
+
+-   Available as an extension
+-   Helps with exploratory data analysis
+-   Generates and runs code iteratively
+
+## GitHub Copilot
+
+-   Predicts and autocompletes code
+-   Especially useful for repetitive syntax
+-   Free for many students through GitHub Education
+:::
+
+# Prompt 6: Which AI tools have you installed or set up? Which AI tools did you find beneficial for you?
+
+## Prompt
+
+> Which AI tools have you installed or set up? Which AI tools did you find beneficial for you?
+
+## Response
+
+The main AI tool I set up is **GitHub Copilot** through GitHub Education. I also learned about Positron Assistant and the possibility of using other AI-related tools inside Positron. Out of these options, GitHub Copilot feels the most directly useful for me because it helps while I am actively writing code.
+
+What I found beneficial about GitHub Copilot is that it speeds up repetitive coding tasks and often suggests syntax that I may not remember immediately. This is especially useful when writing code structures, functions, or repeated patterns. It can also help reduce the time spent searching online for simple coding syntax.
+
+At the same time, I understand that AI tools should be used carefully. Even when suggestions look correct, they still need to be reviewed and understood. For me, the biggest benefit is efficiency, but only when combined with my own judgment.
+
+# Prompt 7: Apply for GitHub Copilot, take a screenshot showing acceptance, and reflect on whether it is helpful or distracting.
+
+## Prompt
+
+> I strongly recommend using GitHub Copilot, which is free if you apply for an education account. Apply for it and take a screenshot showing you were accepted into the education program. Play with it and do you find it helpful or distracting? Please elaborate.
+
+## Response
+
+I applied for GitHub Education and was accepted into the program. This made me eligible for GitHub Copilot as a student. The screenshot below shows that I was accepted.
+
+![GitHub Education Acceptance Screenshot](Screenshot%202026-03-13%20163040.png)
+
+After exploring GitHub Copilot, I found it more helpful than distracting. It is especially useful for suggesting code completions and helping with routine parts of programming. This can save time and reduce frustration, especially when I already know what I want to do but do not remember the exact syntax.
+
+However, I can also see how it could become distracting if I relied on it too much or accepted suggestions without reviewing them carefully. Sometimes AI-generated suggestions may not match the exact purpose of the code, so it is still important to think critically and verify what it produces.
+
+Overall, I believe GitHub Copilot is beneficial when used as a support tool rather than as a replacement for actual understanding. It can make coding faster and smoother, but learning still depends on the user being actively engaged.
+
+# Prompt 8: Publish this report to GitHub Pages and provide a URL.
+
+## Prompt
+
+> Publish this report to GitHub Pages and provide a URL to the GitHub Pages for the report. Note that although both GitHub Pages and GitHub repo are online, they are different. GitHub Pages is a website publishing service that hosts the rendered HTML from a QMD file.
+
+## Response
+
+I published this report using **GitHub Pages**, which hosts the rendered HTML file as a website. This is different from the GitHub repository itself, which stores the source files such as the `.qmd` document, screenshot image, and other project files.
+
+GitHub Pages URL:
+
+**PASTE-YOUR-GITHUB-PAGES-URL-HERE**
+
+::: callout-note
+GitHub repository = stores source files.\
+GitHub Pages = publishes the rendered HTML report as a website.
+:::
+
+# Conclusion
+
+This module helped me understand how Positron works as a modern data science IDE. I learned how to set up a project, create a Quarto document, and explore features that make Positron different from RStudio. I also learned that Positron supports AI tools such as Positron Assistant, DataBot, and GitHub Copilot, which can make coding and data analysis more efficient.
+
+Overall, I think Positron is a strong platform for modern analytics work because it combines a familiar data science workflow with newer tools and more flexibility. While RStudio still feels simpler for some traditional tasks, Positron seems better suited for the direction that data science tools are moving toward.
+
+# Footnote
+
+AI tools can improve productivity, but they should support learning rather than replace understanding.[^1]
+
+[^1]: This is why reviewing and verifying AI-generated output remains important.
+
+# Cross-Reference Example
+
+See @sec-final-thoughts for my final reflection on Positron.
+
+# Final Thoughts {#sec-final-thoughts}
+
+My final impression is that Positron is a promising IDE that builds on the strengths of RStudio while adding useful modern features such as AI integration, extensions, and multilingual support.
